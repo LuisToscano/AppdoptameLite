@@ -1,0 +1,30 @@
+.grid_container{
+    width: 100%;
+}
+
+.grid_row{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    padding-bottom: 2px;
+    background-color: #FFFFFF;
+}
+
+.grid_cell{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.grid_cell img{
+    width: 98%;
+    height:auto;
+    margin: 0 auto;
+}
+
+.floating_btn{
+    position: fixed;
+    right: 2rem;
+    bottom: 1rem;
+}
